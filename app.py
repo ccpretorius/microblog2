@@ -8,9 +8,13 @@ https://www.fiverr.com/riaanpret1
 
 """
 
+import os
 import datetime
 from flask import Flask, render_template, request
 from pymongo import MongoClient
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Application definition
 
